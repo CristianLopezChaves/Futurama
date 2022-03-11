@@ -1,0 +1,159 @@
+img {
+  width: 60px;
+}
+
+caja1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+caja2 {
+  display: flex;
+  flex-direction: column;
+}
+
+caja3 {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+  padding: 150px;
+}
+
+.p2 {
+  background-color: lightyellow;
+}
+
+hr {
+  margin: 2em 0;
+}
+
+.class2 {
+  resize: both;
+  overflow: auto;
+  display: grid;
+  background-color: lightskyblue;
+  place-items: center;
+}
+
+.class2 div {
+  background-color: lightyellow;
+}
+
+.class3 {
+  resize: both;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightskyblue;
+  justify-content: center;
+}
+
+.class3 div {
+  flex: 0 1 150px;
+  margin: 5px;
+  background-color: lightyellow;
+}
+
+.class4 {
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+  background-color: lightskyblue;
+}
+
+.class4-1 {
+  background-color: lightyellow;
+}
+
+.class4-2 {
+  background-color: lightpink;
+}
+
+.class5 {
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: lightskyblue;
+}
+
+.class5-1 {
+  background-color: lightyellow;
+}
+.class5-2 {
+  background-color: lightsalmon;
+}
+.class5-3 {
+  background-color: lightpink;
+}
+
+.class6 {
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
+  background-color: lightskyblue;
+}
+
+.class6-1 {
+  background-color: lightpink;
+  grid-column: 1 / 4;
+}
+.class6-2 {
+  background-color: lightblue;
+}
+.class6-3 {
+  background-color: lightsalmon;
+}
+.class6-4 {
+  background-color: lightyellow;
+}
+.class6-5 {
+  background-color: lightgreen;
+  grid-column: 1 / 4;
+}
+
+.class7 {
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.class7-1 {
+  background-color: lightpink;
+}
+.class7-2 {
+  background-color: lightblue;
+}
+.class7-3 {
+  background-color: lightsalmon;
+}
+.class7-4 {
+  background-color: lightyellow;
+}
+
+.class8 {
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  padding: 1em;
+  border: 1px solid blue;
+}
+
+.class8-1 {
+  background-color: lightpink;
+}
+.class8-2 {
+  background-color: lightblue;
+}
+.class8-3 {
+  background-color: lightsalmon;
+}
+.class8-4 {
+  background-color: lightyellow;
+}
